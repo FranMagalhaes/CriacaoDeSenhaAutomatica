@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+    body {
+        color: #263238;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+#container {
+    border: 1px, solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#content {
+    border-right: 1px solid #e6e6e6;
+    padding: 50px;
+}
+
+#illustration {
+    padding: 50px;
+}
+
+header {
+    margin:30px 0;   
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 2.25rem; /* 36px */
+}
+
+header h3 {
+    color: #abb5ba;
+    font-weight: 700;
+    font-size: 1.12rem; /* 18px */
+}
+
+#form-generator {
+    margin-bottom: 20px;
+}
+
+#form-generator button {
+    width: 100%;
+    background-color: #407BFF;
+    color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: .90rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}  
+
+#form-content {
+    border: 3px solid #e6e6e6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#form-content strong {
+    font-size: .75rem;
+    margin-bottom: 5px;
+}
+#form-content input[type=text] {
+    border: none;
+    font-size: 1.25rem;
+    outline: none;
+    color: #98a2a7;
+}
+
+#form-settings {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-settings .options {
+    margin: 0 15px;
+}
+
+#form-settings .options label {
+    cursor: pointer;
+    text-align: center;
+}
+
+#form-settings .options label span {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #abb5ba;
+}
+
+#form-settings .options label span strong {
+    font-size: 1.6rem;
+    font-weight: 800;
+    display: block;
+}
+
+#form-settings .options input[type=checkbox] {
+    display: none;
+}
+
+#form-settings .options input[type=checkbox]:checked + span {
+    color: #407BFF;
+}
+
+#erro {
+    text-align: center;
+    padding: 10px 20px ; 
+    font-size: 1rem;  
+    margin: 20px 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: transparent;
+    color: #d93d4a;
+    border: 2px solid #d93d4a;
+    display: none;
+
+}
+
+footer {
+    text-align: center;
+    color: #ABB5BA;
+    font-size: .75rem;
+}
+ 
+
+
+

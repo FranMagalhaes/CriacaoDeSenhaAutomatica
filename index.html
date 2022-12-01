@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Pass :: criar senhas rapidamente</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Open+Sans:wght@400;700;800 & family= Titillium+Web & display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles.css">
+  
+
+</head>
+
+<body>
+    <section id="container">
+        <section id="content">
+            <img src="./imagens/logo.png" id="logo" height="50">
+        
+        <header>
+        <h1>Crie sua nova senha</h1>
+        <h3>Escolha as configurações para sua uma senha segura</h3>
+        </header>
+       
+        <section id="form-generator">
+            <div id="form-content">
+                <strong>Essa é sua nova senha</strong>
+                <input type="text" readonly id="novasenha"/>
+            </div>
+            
+            <div id="form-settings">
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="options" value="uppercase"/>
+                        <span><strong> AA</strong>Caixa Alta</span>
+                    </label>
+                </div>
+
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="options" value="lowercase"/>
+                        <span><strong> aa</strong>Caixa Baixa</span>
+                    </label>
+                </div>
+               
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="options" value="digits"/>
+                        <span><strong> 123</strong>Numeros</span>
+                    </label>
+                </div>
+                
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="options" value="symbols"/>
+                        <span><strong> @#$</strong>Symbols</span>
+                    </label>
+                </div>
+
+            </div>
+        
+            <div id="erro"></div>
+
+            <button onclick="gerarSenha()">Criar minha nova senha</button>
+        
+        
+        </section>
+
+        <footer>
+            FastPass 2022 &copy; todos os direitos reservados
+        </footer>
+        
+    </section>
+
+    <section id="illustration">
+        <img src="./imagens/tocando-na -tela-futurista .png" width="500"/>
+    </section>
+</section>
+                <script src="./script.js"></script>
+                
+
+</body>
+</html>
